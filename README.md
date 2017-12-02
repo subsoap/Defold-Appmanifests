@@ -11,7 +11,7 @@ app_manifest = /appmanifests/nophysics.appmanifest
 
 ![game project app manifest](docs/app_manifest_game_project2.png?raw=true "game.project screenshot")
 
-Then you can build or bundle and a copy of the engine will be produced with the inclusions / exclusions listed in your appmanifest.
+Then you can build or bundle and a version of the engine will be produced with the inclusions / exclusions listed in your appmanifest.
 
 # Included Appmanifests
 
@@ -19,6 +19,7 @@ Then you can build or bundle and a copy of the engine will be produced with the 
 - headless_release.appmanifest - headless release
 - nophysics_release.appmanifest - no physics, no recording, no profiling
 - release.appmanifest - release 
+- debug.appmanifest - debug - no exclusions
 
 Todo add more info and compare build sizes
 
