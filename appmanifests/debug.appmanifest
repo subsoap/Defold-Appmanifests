@@ -1,0 +1,41 @@
+# Debug build - excludes nothing
+platforms:
+    x86_64-linux:
+        context:
+            excludeLibs: []
+            libs: []
+
+    x86_64-osx:
+        context:
+            excludeLibs: []
+            libs: []
+
+    js-web:
+        context:
+            excludeLibs: []
+            libs: []
+
+    x86-win32:
+        context:
+            excludeLibs: []
+            libs: []
+
+    x86_64-win32:
+        context:
+            excludeLibs: [] 
+            libs: []
+
+    armv7-android:
+        context:
+            excludeLibs: []
+            libs: []
+
+    armv7-ios:
+        context:
+            excludeLibs: []
+            libs: []
+            
+    arm64-ios:
+        context:
+            excludeLibs: []
+            libs: []

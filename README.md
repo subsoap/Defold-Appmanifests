@@ -9,7 +9,7 @@ To use these files, you must edit your game.project and add the [native_extensio
 app_manifest = /appmanifests/nophysics.appmanifest
 ```
 
-![game project app manifest](docs/app_manifest_game_project.png?raw=true "game.project screenshot")
+![game project app manifest](docs/app_manifest_game_project2.png?raw=true "game.project screenshot")
 
 Then you can build or bundle and a copy of the engine will be produced with the inclusions / exclusions listed in your appmanifest.
 
