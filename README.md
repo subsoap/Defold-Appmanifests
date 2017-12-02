@@ -28,3 +28,5 @@ Todo add more info and compare build sizes
 If you make a useful appmanifest please post it as an issue or with a pull request
 
 From this thread: https://forum.defold.com/t/native-extensions/4946/133
+
+More info: https://forum.defold.com/t/native-extensions/4946/138
