@@ -1,2 +1,30 @@
 # Defold-Appmanifests
+
 A collection of appmanifest files for excluding different parts of the Defold engine which you do not need
+
+To use these files, you must edit your game.project and add the [native_extension] section along with app_manifest specified
+
+```
+[native_extension]
+app_manifest = /appmanifests/nophysics.appmanifest
+```
+
+![game project app manifest](docs/app_manifest_game_project.png?raw=true "game.project screenshot")
+
+Then you can build or bundle and a copy of the engine will be produced with the inclusions / exclusions listed in your appmanifest.
+
+# Included Appmanifests
+
+- headless
+- headless release
+- no physics, no recording, no profiling
+- release 
+
+Todo add more info and compare build sizes
+
+
+-----
+
+If you make a useful appmanifest please post it as an issue or with a pull request
+
+From this thread: https://forum.defold.com/t/native-extensions/4946/133
