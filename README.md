@@ -1,4 +1,4 @@
-# Defold-Appmanifests
+# Defold Appmanifests
 
 A collection of appmanifest files for excluding different parts of the Defold engine which you do not need
 
@@ -15,10 +15,10 @@ Then you can build or bundle and a copy of the engine will be produced with the 
 
 # Included Appmanifests
 
-- headless
-- headless release
-- no physics, no recording, no profiling
-- release 
+- headless.appmanifest - headless
+- headless_release.appmanifest - headless release
+- nophysics_release.appmanifest - no physics, no recording, no profiling
+- release.appmanifest - release 
 
 Todo add more info and compare build sizes
 
