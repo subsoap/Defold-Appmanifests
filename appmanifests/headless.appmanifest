@@ -1,4 +1,4 @@
-# Release build
+# Headless build
 platforms:
     x86_64-linux:
         context:
