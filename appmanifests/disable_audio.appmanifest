@@ -1,0 +1,49 @@
+# Disables all sound
+platforms:
+    x86_64-linux:
+        context:
+            excludeSymbols: ["AudioDecoderStbVorbis", "AudioDecoderTremolo", "AudioDecoderWav","DefaultSoundDevice"]
+            excludeLibs: ["sound"]
+            libs: ["sound_null"]
+
+    x86_64-osx:
+        context:
+            excludeSymbols: ["AudioDecoderStbVorbis", "AudioDecoderTremolo", "AudioDecoderWav","DefaultSoundDevice"]
+            excludeLibs: ["sound"]
+            libs: ["sound_null"]
+
+    js-web:
+        context:
+            excludeSymbols: ["AudioDecoderStbVorbis", "AudioDecoderTremolo", "AudioDecoderWav","DefaultSoundDevice"]
+            excludeLibs: ["sound"]
+            libs: ["sound_null"]
+
+    x86-win32:
+        context:
+            excludeSymbols: ["AudioDecoderStbVorbis", "AudioDecoderTremolo", "AudioDecoderWav","DefaultSoundDevice"]
+            excludeLibs: ["libsound"]
+            libs: ["libsound_null.lib"]
+
+    x86_64-win32:
+        context:
+            excludeSymbols: ["AudioDecoderStbVorbis", "AudioDecoderTremolo", "AudioDecoderWav","DefaultSoundDevice"]
+            excludeLibs: ["libsound"] 
+            libs: ["libsound_null.lib"]
+
+    armv7-android:
+        context:
+            excludeSymbols: ["AudioDecoderStbVorbis", "AudioDecoderTremolo", "AudioDecoderWav","DefaultSoundDevice"]
+            excludeLibs: ["sound"]
+            libs: ["sound_null"]
+
+    armv7-ios:
+        context:
+            excludeSymbols: ["AudioDecoderStbVorbis", "AudioDecoderTremolo", "AudioDecoderWav","DefaultSoundDevice"]
+            excludeLibs: ["sound"]
+            libs: ["sound_null"]
+            
+    arm64-ios:
+        context:
+            excludeSymbols: ["AudioDecoderStbVorbis", "AudioDecoderTremolo", "AudioDecoderWav","DefaultSoundDevice"]
+            excludeLibs: ["sound"]
+            libs: ["sound_null"]
