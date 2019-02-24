@@ -2,6 +2,8 @@
 
 Use this instead: https://britzl.github.io/manifestation/
 
+https://github.com/britzl/manifestation
+
 
 
 # Defold Appmanifests
